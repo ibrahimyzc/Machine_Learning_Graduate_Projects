@@ -43,9 +43,25 @@ In this assignment, we explored the issue of **linear separability** and its eff
 This assignment tested our understanding of the concepts, mathematics, and programming involved in learning distributions from data. We performed a combination of **derivations** and **programming** to solve problems and assess different distributions from given datasets.
 
 ## Technologies Used
-- **R** for data analysis and visualizations.
-- **ggplot2** for EDA and visualizations.
-- **caret**, **yardstick**, **glmnet** for model training and assessment.
-- **LaTeX** for typesetting equations.
-- **optim()** function in R for optimization.
-- **randomForest**, **nnet**, **xgboost** for advanced modeling techniques.
+
+- **R**: The main programming language used for all assignments. We utilized R for data preprocessing, statistical analysis, and model development. R's robust set of libraries and packages for machine learning, data visualization, and statistical computing were essential for this course.
+  
+- **ggplot2**: Used extensively for creating visualizations in assignments involving Exploratory Data Analysis (EDA). **ggplot2** allowed us to create complex, multi-layered graphics to understand data distributions, model predictions, and other analysis results.
+
+- **caret**: The **caret** package was fundamental for handling machine learning workflows. We used it for model training, evaluation, cross-validation, and hyperparameter tuning across various classification and regression tasks.
+
+- **yardstick**: This package helped us evaluate model performance with metrics such as accuracy, ROC curves, confusion matrices, and AUC, especially in binary classification tasks.
+
+- **glmnet**: A key package for performing **Ridge**, **Lasso**, and **Elastic Net** regression. It enabled us to efficiently fit regularized linear models and tune the regularization strength for improved model generalization.
+
+- **LaTeX**: We used **LaTeX** within RMarkdown documents for typesetting complex mathematical equations and derivations, especially when presenting theoretical concepts like likelihoods, priors, and posteriors.
+
+- **optim()**: The `optim()` function in R was crucial for solving **optimization problems**, particularly in assignments focused on Gaussian distributions and optimization techniques.
+
+- **randomForest**: We employed the **randomForest** package to build ensemble models for classification tasks, which provided robust performance in the presence of non-linear decision boundaries and high-dimensional data.
+
+- **nnet**: For training **neural networks**, we used the **nnet** package, which enabled us to explore basic neural network architectures and apply them to classification problems.
+
+- **xgboost**: We used **XGBoost** for training **gradient boosted trees**, which provided competitive performance in classification tasks, particularly in handling large datasets with complex patterns.
+
+- **tidyverse**: The **tidyverse** collection of R packages (including dplyr, tidyr, and others) was essential for data manipulation and wrangling. These tools allowed us to efficiently clean, reshape, and analyze datasets before applying machine learning models.
