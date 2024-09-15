@@ -4,7 +4,7 @@ This repository contains homework projects completed as part of the **Machine Le
 
 ## Overview
 
-The assignments focus on various key aspects of machine learning, covering concepts such as Exploratory Data Analysis (EDA), regression models, classification metrics, and optimization techniques. Below is a summary of the first twelve assignments:
+The assignments focus on various key aspects of machine learning, covering concepts such as Exploratory Data Analysis (EDA), regression models, classification metrics, and optimization techniques. Below is a summary of the twelve assignments:
 
 ### Assignment 1: Exploratory Data Analysis (EDA) with `ggplot2` and `lm()`
 In this assignment, we introduced the **grammar of graphics** in R with `ggplot2`, focusing on **Exploratory Data Analysis** (EDA). The primary goal was to visualize and interpret datasets using basic programming syntax, providing insights into model results using the formula interface in `lm()` for linear modeling.
